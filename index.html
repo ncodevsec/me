@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nCodevSec</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="scanline"></div>
+
+    <main class="terminal">
+        <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span style="margin-left: 8px;">UNKNOWN_CONNECTION.exe</span>
+            <span class="status">● ONLINE</span>
+        </div>
+
+        <div class="prefix">root@nCodevSec:~$ <span id="command"></span></div>
+
+        <h1>
+            <span id="typing"></span><span class="cursor"></span>
+        </h1>
+
+        <p class="subtitle">
+            <span>[+]</span> CONNECTION ESTABLISHED
+            &nbsp; // &nbsp;
+            <span>ENCRYPTION ACTIVE</span>
+        </p>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
